@@ -9,6 +9,7 @@ Data given:
 
 ## preppring data into train and test:
 cat s.data b.data | python maketsv.py -o train.tsv
+
 python classify.py -i train.tsv
 
 Features added to the classifier:
