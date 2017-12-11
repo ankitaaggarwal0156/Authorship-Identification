@@ -14,6 +14,7 @@ python classify.py -i train.tsv
 Features added to the classifier:
 --------------------
 1.1 <strong>Morphological form of words</strong> present in the CMU dict in every sentence added with weight 1.
+
 1.2 If word does not exist in CMU dict and is not a punctuation, added the word with a weight 2, as it could be a representative of<strong> old style of writing</strong>.
 
 2. <strong>Length of line :</strong> As researched from a few online resources,it was quite evident that the number of words in a line for Shakespeare poetry are greater than number of words in a line for Emily Bronte.
